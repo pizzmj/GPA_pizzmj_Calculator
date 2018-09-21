@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         grd4= findViewById(R.id.grade_four);
         grd5= findViewById(R.id.grade_five);
         Button button= findViewById(R.id.btn_compute);
-        grdDisplay= findViewById(R.id.gpu_display);
+        grdDisplay= findViewById(R.id.gpa_display);
         view= findViewById(R.id.main_view);
 
         button.setOnClickListener(new View.OnClickListener() {

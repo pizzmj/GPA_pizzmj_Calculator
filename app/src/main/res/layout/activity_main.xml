@@ -53,10 +53,10 @@
             android:id="@+id/btn_compute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/gpu_compute" />
+            android:text="@string/gpa_compute" />
 
         <TextView
-            android:id="@+id/gpu_display"
+            android:id="@+id/gpa_display"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/gpuDisplayInitText"/>
