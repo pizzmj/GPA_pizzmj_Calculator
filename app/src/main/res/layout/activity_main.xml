@@ -16,50 +16,118 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name" />
+            android:text="@string/app_name"
+            android:textSize="24sp" />
 
-        <EditText
-            android:id="@+id/grade_one"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/gradeInput"
-            android:inputType="number" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/grade_two"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/gradeInput" />
+            <TextView
+                android:id="@+id/TextLabelOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlblone"
+                android:textSize="16sp" />
 
-        <EditText
-            android:id="@+id/grade_three"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/gradeInput" />
+            <EditText
+                android:id="@+id/grade_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/gradeInput"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </LinearLayout>
 
-        <EditText
-            android:id="@+id/grade_four"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/gradeInput" />
+            android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/grade_five"
+            <TextView
+                android:id="@+id/TextLabelTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlbltwo"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/grade_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/gradeInput"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="@string/gradeInput" />
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextLabelThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlblthree"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/grade_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/gradeInput"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextLabelFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlblfour"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/grade_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/gradeInput"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextLabelFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlblfive"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/grade_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/gradeInput"
+                android:inputType="number"
+                android:textSize="16sp" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/btn_compute"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/gpa_compute" />
+            android:text="@string/gpa_compute"
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/gpa_display"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/gpuDisplayInitText"/>
+            android:text="@string/gpuDisplayInitText"
+            android:textSize="20sp" />
     </LinearLayout>
 
 

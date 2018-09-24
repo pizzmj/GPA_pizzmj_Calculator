@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">GPU Calculator</string>
-    <string name="gpa_compute">Compute</string>
+    <string name="gpa_compute">Compute GPA</string>
     <string name="gradeInput">Input Grade</string>
-    <string name="gpuDisplayInitText">Your GPU will be displayed here!</string>
+    <string name="gpuDisplayInitText">Your GPA will be displayed here!</string>
+    <string name="txtlblone">First Grade: </string>
+    <string name="txtlbltwo">Second Grade: </string>
+    <string name="txtlblthree">Third Grade: </string>
+    <string name="txtlblfour">Fourth Grade: </string>
+    <string name="txtlblfive">Fifth Grade: </string>
+    <string name="invalid_grade">There are one or more invalid grades.</string>
+    <string name="clear_form">Clear Form</string>
 </resources>
